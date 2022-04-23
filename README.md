@@ -6,7 +6,7 @@ This is done by **SC8 Team 04** which consists of:
 2. Chua Min Min (U2121126G)
 3. Poh Shi Qian (U2122452J)
 
-Date completed: XX April 2022
+Date completed: 24 April 2022
 
 ---
 ## Real-life Problem
