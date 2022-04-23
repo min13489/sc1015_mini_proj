@@ -8,6 +8,8 @@ This is done by **SC8 Team 04** which consists of:
 
 Date completed: 24 April 2022
 
+### Below is just a summary of our project. For more information, please read [mini_project.ipynb](https://github.com/min13489/sc1015_mini_proj/blob/master/mini_project.ipynb).
+
 ---
 ## Real-life Problem
 ### Stroke can often be caused by unhealthy lifestyle and other health problems. Are there any unconventional causes?
@@ -45,19 +47,28 @@ This dataset is extracted from [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 ---
 ## What did we do in this project?
-1. Exploratory Data Analysis on the features (graphs, calculations, correlation checks)
+1. Exploratory Data Analysis on the features
 > * Plotting of graphs<br>
 > * Statistical summaries<br>
 > * Simple calculations<br>
 > * Correlation checks<br>
-2. Data Cleaning and Preparation (removal, replacement, encoding)
-3. Post-cleaning Work (correlation checks, feature selection)
-4. Machine Learning (k-Nearest Neighbors, XGBoost, Artificial Neural Network, Naive Bayes)
-5. Conclusion (answering our question)
+2. Data Cleaning and Preparation
+> * Removal of rows/columns
+> * Replacement of values
+> * Encoding (Label/One-Hot)
+3. Post-cleaning Work
+> * Correlation checks
+> * Feature Selection (SelectKBest)
+4. Machine Learning
+> * k-Nearest Neighbors
+> * XGBoost
+> * Artificial Neural Network
+> * Naive Bayes
+5. Conclusion
 <br><br><br>
 ## New things we tried!
 1. **Chi-square test** - this is for categorical features correlation check
-2. **One-hot encoding** - this is for categorical features that are non-binary
+2. **One-Hot encoding** - this is for categorical features that are non-binary
 3. **SelectKBest feature selection** - this is to provide insights on variable importance
 4. **Synthetic Minority Over-sampling Technique (SMOTE)** - this is to compensate for our heavily imbalanced data
 5. **k-Nearest Neighbors** - model
@@ -67,11 +78,15 @@ This dataset is extracted from [Kaggle](https://www.kaggle.com/datasets/fedesori
 
 ---
 ## Conclusion
-
-<br><br><br>
+* Naive Bayes is the **most ideal model** for this dataset
+* Unconventional features **can** help to better predict if a person will have / already has a stroke
+* **'work_type' is the most significant unconventional feature**, followed by 'ever_married' and 'Residence_type'
+---
 ## References:
 * American Heart Association (2021). *2021 Heart Disease & Stroke Statistical Update Fact Sheet Global Burden of Disease*. Professional Heart Daily. https://professional.heart.org/-/media/PHD-Files-2/Science-News/2/2021-Heart-and-Stroke-Stat-Update/2021_Stat_Update_factsheet_Global_Burden_of_Disease.pdf
 * Bariatric Department at Lafayette General Medical Center (2019). *How Obesity Affects Stroke Risk*. Ochsner Lafayette General. https://ochsnerlg.org/about-us/news/how-obesity-affects-stroke-risk
+* Huang, Y., Xu, S., Hua, J., Zhu, D., Liu, C., Hu, Y., Liu, T. & Xu, D. (2015). Association between job strain and risk of incident stroke: A meta-analysis. *Neurology, 85*(19), 1648-1654. https://doi.org/10.1212/WNL.0000000000002098 
 * WebMD (2021). *Top 10 Causes of Strokes - Risk Factors and How You Can Lower Your Risks*. WebMD. https://www.webmd.com/stroke/guide/stroke-causes-risks
 * World Stroke Organization (n.d.). *Learn about stroke*. World Stroke Orgnization. https://www.world-stroke.org/world-stroke-day-campaign/why-stroke-matters/learn-about-stroke
-* Wyller T. B. (1999). Stroke and gender. *The journal of gender-specific medicine : JGSM : the official journal of the Partnership for Women's Health at Columbia*, 2(3), 41–45.
+* Wyller, T. B. (1999). Stroke and gender. *The journal of gender-specific medicine : JGSM : the official journal of the Partnership for Women's Health at Columbia*, 2(3), 41–45.
+
